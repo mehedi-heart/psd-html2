@@ -1,0 +1,39 @@
+@media (max-width:1100px){
+    #new-area {
+    background-size: cover;
+}
+  #new-area .col-sm-6 {
+  width: 100%;
+}  
+}
+
+@media (max-width:767px){
+    #footer-area img {
+    margin: 0 auto;
+}
+    #footer-area {
+    text-align: center;
+}
+}
+
+@media (max-width:767px){
+    #header-area h1 {
+        font-size: 38px !important;
+    }
+    .new {
+    transform: translate(0%,24%) !important;
+}
+    #new-area{
+        min-height: 121vh !important;
+    }
+    #awesome-area {
+    min-height: 194vh !important;
+     background-position: 84% 100% !important;
+}
+}
+
+@media (max-width:450px){
+    #awesome-area {
+   min-height: 215vh !important;
+}
+}
